@@ -204,7 +204,35 @@ div.numbers h2:last-child {
     border-bottom: 4px solid #fff;
 }
 
+/* --- SNOWBALL ---*/
 
+section.snowball-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 1em;
+    max-height: 350px;
+    background-color: #714545;
+}
+
+div.snowball h2 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div.snowball h3 {
+    color: #db4a4a;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;     
+}
+
+section.snowball-section .media-body h5,
+section.snowball-section .media-body p {
+    color: #fff;   
+}
 
 /* --- MAIN CONTENT ---*/
 
@@ -215,11 +243,6 @@ div.numbers h2:last-child {
 div.header {
     height: 650px;
     margin-bottom: 0;
-}
-
-section.sections {
-    height: 300px;
-    background-color: #eceeef;
 }
 
 
